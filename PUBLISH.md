@@ -5,33 +5,46 @@
 ✅ **Commit realizado**: `b59a39d`
 ✅ **Rama creada**: `release/v2.0-nostalgic`  
 ✅ **Tag creado**: `v2.0`
-✅ **Archivos incluidos**: 7 archivos principales
+✅ **Remote configurado**: `https://github.com/l3onkers/FuxiOS.git`
+✅ **Archivos incluidos**: 8 archivos principales
 ✅ **.gitignore configurado**: Excluye logs y __pycache__
 
 ## 🔗 Para Publicar en GitHub:
 
-### 1. Configurar Remote (si es nuevo repo):
-```bash
-git remote add origin https://github.com/TU_USUARIO/FuxiOS.git
-```
+### 1. Crear Repositorio en GitHub:
+1. Ir a https://github.com/l3onkers
+2. Click "New repository"
+3. Nombre: `FuxiOS`
+4. Descripción: `CVE-2016-4631 Exploit PoC - Versión nostálgica modernizada para Python 3`
+5. ✅ Public (para que sea visible)
+6. ❌ NO inicializar con README (ya tenemos uno)
+7. Click "Create repository"
 
-### 2. Subir a GitHub:
+### 2. Subir a GitHub (ejecutar en terminal):
 ```bash
-# Subir rama main
 git push -u origin main
-
-# Subir rama de release
 git push -u origin release/v2.0-nostalgic
-
-# Subir tags
 git push --tags
 ```
 
 ### 3. Crear Release en GitHub:
-1. Ir a GitHub → Releases → "Create a new release"
-2. Seleccionar tag `v2.0`
+1. En el repo → Releases → "Create a new release"
+2. Tag: `v2.0`
 3. Título: "🎯 FuxIOS.py v2.0 - Versión Nostálgica Modernizada"
-4. Descripción: Usar contenido del README.md
+4. Descripción: 
+```
+🎉 Rescate nostálgico de un exploit CVE-2016-4631 de mis primeros días en ciberseguridad
+
+✨ Completamente reescrito para Python 3 con:
+- Interfaz moderna en español
+- Sistema de logging avanzado  
+- Validación robusta de entrada
+- Compatibilidad multiplataforma
+- Suite de pruebas completa
+
+💭 Un viaje al pasado con la funcionalidad del presente
+F0LloW_Th3_R4ts <:8)~~
+```
 
 ## 📁 Archivos Incluidos:
 
